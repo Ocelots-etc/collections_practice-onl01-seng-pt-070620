@@ -30,7 +30,7 @@ def kesha_maker(array)
     c
   else
     index += 1
-    (idx % 4).zero? ? c.upcase : c
+    (index % 4).zero? ? c.upcase : c
   end
 end
   # array.each { |s| s.split(",") }
