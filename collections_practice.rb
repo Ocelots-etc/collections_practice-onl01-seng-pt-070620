@@ -21,5 +21,6 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.
+  array.slice_after { |word| ",".include?(word).to_a }
+  x.slice_after { |e| '.?!'.include?(e) }.to_
 end
