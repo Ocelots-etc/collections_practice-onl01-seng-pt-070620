@@ -21,5 +21,5 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  a.map { |s| s.split(r2) }
+  array.map { |s| s.split(r2) }
 end
