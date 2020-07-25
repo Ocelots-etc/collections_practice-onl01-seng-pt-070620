@@ -23,7 +23,7 @@ end
 def kesha_maker(array)
   newarray = array.join(",")
   index = 0
-  array.gsub(/./) do |c|
+  newarray.gsub(/./) do |c|
     case c
   when ' '
     idx = 0
