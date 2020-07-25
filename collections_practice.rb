@@ -22,16 +22,16 @@ end
 
 def kesha_maker(array)
   newarray = array.join(",")
-  index = 0
-  newarray.gsub(/./) do |character|
-    case character
-  when ' '
-    index = 0
-    character
-  else
-    index += 1
-    (index % 3).zero? ? newarray.sub(/\w[3]/, "$") : character
-  end
-end
+#   index = 0
+#   newarray.gsub(/./) do |character|
+#     case character
+#   when ' '
+#     index = 0
+#     character
+#   else
+#     index += 1
+#     (index % 3).zero? ? newarray.sub(/\w[3]/, "$") : character
+#   end
+# end
   # array.each { |s| s.split(",") }
 end
