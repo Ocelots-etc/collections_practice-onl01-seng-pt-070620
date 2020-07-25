@@ -22,5 +22,5 @@ end
 
 def kesha_maker(array)
   array.slice_after { |word| ",".include?(word).to_a }
-  x.slice_after { |e| '.?!'.include?(e) }.to_
+  # x.slice_after { |e| '.?!'.include?(e) }.to_a
 end
