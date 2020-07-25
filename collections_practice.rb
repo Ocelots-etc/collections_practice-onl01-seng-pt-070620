@@ -22,7 +22,7 @@ end
 
 def kesha_maker(array)
   newarray = array.join(",")
-  
+
 #   index = 0
 #   newarray.gsub(/./) do |character|
 #     case character
