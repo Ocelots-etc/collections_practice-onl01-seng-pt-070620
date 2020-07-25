@@ -22,5 +22,4 @@ end
 
 def kesha_maker(array)
   array.each { |s| s.split(",") }
-  array[][0]
 end
