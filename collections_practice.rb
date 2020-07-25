@@ -22,7 +22,7 @@ end
 
 def kesha_maker(array)
   new_array = array.each do |word|
-    word[2]["$"]
+    word.replace[2]["$"]
   end
   new_array
   # array.each { |s| s.split(",") }
