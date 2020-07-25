@@ -22,5 +22,5 @@ end
 
 def kesha_maker(array)
   array.map { |s| s.split(",").gsub }
-  
+
 end
