@@ -23,14 +23,14 @@ end
 def kesha_maker(array)
   newarray = array.join(",")
   index = 0
-  newarray.gsub(/./) do |c|
-    case c
+  newarray.gsub(/./) do |character|
+    case character
   when ' '
     index = 0
-    c
+    character
   else
     index += 1
-    (index % 3).zero? ? c.upcase : c
+    (index % 3).zero? ? character.upcase : character
   end
 end
   # array.each { |s| s.split(",") }
