@@ -21,9 +21,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  new_array = array.each do |word|
-    word.gsub[2]["$"]
-  end
-  new_array
+  index = 0
+  array.gsub(/./) do |word|
+
   # array.each { |s| s.split(",") }
 end
