@@ -21,7 +21,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  newarray = array.join(",")
+  newarray = array.split(",")
 
 #   index = 0
 #   newarray.gsub(/./) do |character|
