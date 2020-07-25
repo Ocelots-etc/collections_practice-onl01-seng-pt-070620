@@ -22,7 +22,14 @@ end
 
 def kesha_maker(array)
   index = 0
-  array.gsub(/./) do |word|
-
+  array.gsub(/./) do |c|
+    case c
+when ' '
+  idx = 0
+  c
+else
+  idx += 1
+  (idx % 4).zero? ? c.upcase : c
+end
   # array.each { |s| s.split(",") }
 end
