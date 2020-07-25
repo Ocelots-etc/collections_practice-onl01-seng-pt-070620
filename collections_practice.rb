@@ -26,10 +26,10 @@ def kesha_maker(array)
   newarray.gsub(/./) do |c|
     case c
   when ' '
-    idx = 0
+    index = 0
     c
   else
-    idx += 1
+    index += 1
     (idx % 4).zero? ? c.upcase : c
   end
 end
