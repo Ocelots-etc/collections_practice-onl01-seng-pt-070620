@@ -30,7 +30,7 @@ def kesha_maker(array)
     character
   else
     index += 1
-    (index % 3).zero? ? newarray.sub(/\w{3}/, "$") : character
+    (index % 3).zero? ? newarray.sub(/\w[3]/, "$") : character
   end
 end
   # array.each { |s| s.split(",") }
